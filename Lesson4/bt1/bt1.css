@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 50%;
+  background: #99babea3;
+  padding: 20px 20px 10px;
+}
+
+h1.title {
+  background: #ff6e0061;
+  border: 1px solid #e76c26;
+  text-align: center;
+  padding: 5px;
+}
+
+p.paragraph {
+  background: #f4433691;
+  border: 1px solid black;
+  margin: 12px 0;
+  padding: 10px;
+}
+
+button.button-rep {
+  background: #2196f3;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+  font-size: 10px;
+}
