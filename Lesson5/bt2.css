@@ -1,0 +1,36 @@
+.container-b2 {
+  background: antiquewhite;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-left {
+  display: flex;
+}
+
+.item-right {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+.item-logo {
+  border: 1px solid black;
+  background: #0080004d;
+  padding: 2px 8px;
+}
+
+.item-name {
+  margin-left: 10px;
+  padding-top: 3px;
+  font-weight: bold;
+}
+
+.item-box {
+  padding: 2px 8px;
+  background: green;
+  border: 1px solid black;
+}
