@@ -45,3 +45,152 @@ h3.header-info__name {
   border-radius: 8px;
   border: 1px solid #549fa9;
 }
+
+header.container-header {
+  padding: 5px 15px;
+  background: #ffc10782;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-info__avatar {
+  width: 25px;
+  height: 25px;
+  background: #a3679a;
+  border-radius: 30px;
+  border: 1px solid;
+}
+
+.header-info {
+  display: flex;
+  align-items: center;
+}
+
+h3.header-info__name {
+  margin-left: 8px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.header-pages {
+  display: flex;
+  align-items: center;
+}
+
+.header-page {
+  margin: 0px 12px;
+  font-size: 12px;
+}
+
+.header-page.active {
+  background: #03a9f4a3;
+  padding: 4px 12px;
+  border-radius: 8px;
+  border: 1px solid #549fa9;
+}
+
+.container-body {
+  display: flex;
+  padding: 16px 32px;
+}
+
+.body-filter {
+  padding: 5px 10px;
+  border: 1px solid black;
+  height: 180px;
+}
+
+.body-filter h3 {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.body-filter__select {
+  margin: 5px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.body-filter__select input {
+  margin-right: 5px;
+}
+
+.body-filter__select label {
+  font-size: 12px;
+}
+
+button.btn-show-more {
+  margin-top: 10px;
+  background: #03a9f4;
+  border: 1px solid #8fcdd5;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.body-content {
+  margin-left: 20px;
+  width: 80%;
+}
+
+.body-content__search {
+  border: 1px solid black;
+}
+
+.body-content__search {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px 5px 5px;
+}
+
+.dropdown select {
+  width: 90px;
+  font-size: 12px;
+  height: 20px;
+  color: gray;
+  margin-right: 15px;
+}
+
+.body-content__products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.container-product {
+  width: 22%;
+  margin: 10px 0px;
+}
+
+img.container-product__image {
+  width: 100%;
+  height: auto;
+}
+
+p.container-product__title {
+  font-weight: bold;
+  font-size: 12px;
+  margin: 8px 0px;
+}
+
+.container-divroduct__price {
+  display: flex;
+  justify-content: space-between;
+}
+
+p.price {
+  font-size: 12px;
+  color: blue;
+}
+
+p.price-sale {
+  font-size: 12px;
+  color: red;
+}
+
+p.container-product__title {
+}
+
+.body-pagination button {
+  padding: 2px 6px;
+}
