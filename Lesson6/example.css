@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  width: 30%;
+  height: 250px;
+}
+
+.box.orange {
+  background: orange;
+}
+
+.box.yellow {
+  background: yellow;
+}
+
+.box.blue {
+  background: blue;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: space-between;
+}
+
+@media (max-width: 749px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box.yellow {
+    order: 1;
+  }
+}
+
+.blue {
+  background: blue;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.input-group.mb-3.col-8 {
+  width: 30%;
+}

@@ -75,15 +75,19 @@ i.fa-regular.fa-heart {
   display: flex;
   padding: 16px;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .card {
-  min-width: 475px;
+  min-width: 400px;
+  width: 48%;
   min-height: 296px;
   border-radius: 16px;
   display: flex;
   overflow: hidden;
   background: #ffd38a;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .card-avatar {
